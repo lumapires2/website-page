@@ -119,14 +119,9 @@ button{
 }
 
 .first-block > .image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: rgb(61, 61, 61);
     width: 40%;
-    height: 100%;
-    flex-shrink: 1;
+    height: 80%;
+    flex-shrink: 0;
 }
 
 .second-block{
@@ -163,8 +158,9 @@ li > .image{
     border: 3px solid blue;  
     border-radius: 10px;
     justify-content: center;
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
+    flex-shrink: 1;
 }
 
 li > .description{

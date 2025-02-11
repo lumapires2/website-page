@@ -10,7 +10,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    flex-grow: 1;
 }
 
 .first-block,
@@ -18,39 +17,42 @@ body {
 .third-block,
 .fourth-block{
     height: 22%;
-    width: 22%;
-    flex-grow: 1;
     width: 100%;
+    flex-grow: 1;
 }
+
 
 .header,
 .copyright {
     height: 6%;
-    flex-grow: 0;
     width: 100%;
+    flex-grow: 0;
+    flex-wrap: wrap;
 }
+
 
 .header,
 .logo,
 .links {
     display: flex;
-    padding: 0.5%;
 }
+
 
 .header{
     justify-content: space-between;
 }
 
+
 .logo{
-    width: 40%;
+    width: 30%;
     font-weight: bold;
-    font-size: 120%;
+    font-size: 1.2rem;
     display: flex;
     justify-content: center;
 }
 
 .links{
-    width: 60%;
+    width: 50%;
     gap: 5%;
     justify-content: center;
 }
@@ -75,35 +77,31 @@ a {
     display: flex;
 }
 
-
 .first-block{
     display: flex;
-    flex-direction: row;
-    gap: 5%;
-    padding: 5%;
     align-items: center;
     justify-content: center;
 }
 
 .info{
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     height: 50%;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+
 h3 {
-    font-size: 230%;
+    font-size: 2rem;
     text-align: left;
-    padding: 1%;
     width: 80%;
     margin: 0;
 }
 
 .first-block .description{
     padding: 1%;
-    font-size: 100%;
+    font-size: 1rem;
     width: 90%;
     margin-bottom: 1%;
 }
@@ -121,9 +119,14 @@ button{
 }
 
 .first-block > .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(61, 61, 61);
-    padding: 5%;
+    width: 40%;
     height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 /*

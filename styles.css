@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header,
+.logo,
+.links {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.logo{
+    width: 40%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.links{
+    width: 60%;
+    gap: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+
+.header,
+.first-block,
+.copyright {
+    background-color: rgb(26, 30, 54);
+    color: beige;
+}
+
+.first-block, 
+.info {
+    display: flex;
+}
+
+.first-block{
+    justify-content: center;
+    gap: 20%;
+    padding: 2%;
+}
+
+.info{
+    flex-direction: column;
+    width: 25%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 0;
+    border: 0;
+    padding: 1%;
+}
+
+.first-block .description{
+    padding: 3px;
+    font-size: 15px;
+    margin-bottom: 1%;
+}
+
+.first-block > button{
+    width: max-content;
+    flex: none;
+    background-color: blue;
+    color: beige;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5px;
+}
+
+.first-block > .image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+    background-color: rgb(61, 61, 61);
+}
+
+.second-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.second-block > .info{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none; 
+    display: flex;
+    gap: 5%;
+    border: 5%;
+    justify-content: center;
+}
+
+li > .image{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;  
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+li > .description{
+    flex-wrap: wrap;
+    width: 130px;
+    padding: 10%;
+    text-align: center;
+}
+
+.third-block{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(32, 32, 32, 0.185);
+    height: 20%;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.quote{
+    font-size: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.third-block > .description{
+    display: flex;
+    justify-content: right;
+    margin-right: 20%;
+    font-weight: bold;
+}
+
+.fourth-block{
+    display: flex;
+    background-color: blue;
+    color: beige;
+    justify-content: space-around;
+    padding: 2%;
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+}
+
+.fourth-block > button{
+    border: 1px solid beige;  
+    border-radius: 10px;
+    background-color: blue;
+    color: beige;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.copyright{
+    text-align: center;
+    padding: 1%;
+}

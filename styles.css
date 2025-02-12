@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Roboto', 'Courier New', Courier, monospace;
 }
 
 .first-block,
@@ -44,9 +45,10 @@ body {
 .logo{
     width: 30%;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 24px;
     display: flex;
     justify-content: center;
+    color: #F9FAF8;
 }
 
 .links{
@@ -64,7 +66,7 @@ a {
 
 .block,
 .copyright {
-    background-color: rgb(26, 30, 54);
+    background-color: #1F2937;
     color: beige;
 }
 
@@ -84,7 +86,7 @@ a {
 
 .info{
     flex-direction: column;
-    width: 30%;
+    width: 60%;
     height: 50%;
     flex-wrap: wrap;
     justify-content: center;
@@ -93,27 +95,30 @@ a {
 
 
 h3 {
-    font-size: 2rem;
+    font-size: 48px;
     text-align: left;
     width: 80%;
     margin: 0;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .first-block .description{
     padding: 1%;
-    font-size: 1rem;
+    font-size: 18px;
     width: 90%;
     margin-bottom: 1%;
+    color: #E5E7EB;
 }
 
 button{
-    background-color: blue;
+    background-color: #3882F6;
     color: beige;
     size: 50%;
     padding: 1%;
     padding-left: 5%;
     padding-right: 5%;
-    border-radius: 10%;
+    border-radius: 5px;
     width: max-content;
     flex: none;
 }
@@ -121,7 +126,6 @@ button{
 .first-block > .image{
     width: 40%;
     height: 80%;
-    flex-shrink: 0;
 }
 
 .second-block{
@@ -132,6 +136,9 @@ button{
 
 h2{
     text-align: center;
+    font-size: 36px;
+    color: 1F2937;
+    font-weight: 900;
 }
 
 ul {
@@ -140,7 +147,7 @@ ul {
     list-style-type: none; 
     padding: 0;
     display: flex;
-    gap: 3%;
+    gap: 4%;
     flex-wrap: wrap;
     width: 80%;
 }
@@ -155,24 +162,24 @@ li {
 li > .image{
     display: flex;
     flex-direction: column;
-    border: 3px solid blue;  
+    border: 3px solid  #3882F6;  
     border-radius: 10px;
     justify-content: center;
     width: 130px;
     height: 130px;
-    flex-shrink: 1;
 }
 
 li > .description{
-    padding: 5%;
+    padding: 4%;
     text-align: center;
+    font-size: 14px;
 }
 
 .third-block{
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: rgba(32, 32, 32, 0.185);
+    background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
     padding-top: 6%;
@@ -180,23 +187,26 @@ li > .description{
 }
 
 .quote{
+    width: 80%;
     display: flex;
     flex-direction: column;
-    width: 60%;
     justify-content: center;
     align-items: center;
+    font-family: 'light italic';
+    color: #1F2937;
 }
 
 .quote h3{
-    font-size: 1.6rem;
-    font-weight: normal;
+    font-size: 36px;
+    font-weight: normal; 
+    color: #1F2937;  
 }
 
 .quote h2{
-    font-size: 1.2rem;
+    font-size: 24px;
     width: 100%;
     font-weight: bold;
-    text-align: end;
+    text-align: right;
 }
 
 .fourth-block{
@@ -211,7 +221,7 @@ li > .description{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: blue;
+        background-color: #3882F6;
         color: beige;
         width: 60%;
         height: 50%;
